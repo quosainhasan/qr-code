@@ -1,17 +1,14 @@
 body{
     background-color: hsl(212, 45%, 89%);
-    min height: 100vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
 }
-
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
 .card{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
     height: 510px;
     width: 330px;
     border-radius: 4%;
@@ -40,10 +37,4 @@ body{
     text-align: center;
     font-size: 15px;
     color: hsl(220, 15%, 55%);
-}
-
-@media (max-width: 350px) { 
-    body { padding: 0 10px; } 
-    .card img { width: 100%; margin: 0; }
-    .card { padding: 10px; width: 100%; }
 }
