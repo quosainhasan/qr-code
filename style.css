@@ -41,3 +41,9 @@ body{
     font-size: 15px;
     color: hsl(220, 15%, 55%);
 }
+
+@media (max-width: 350px) { 
+    body { padding: 0 10px; } 
+    .card img { width: 100%; margin: 0; }
+    .card { padding: 10px; width: 100%; }
+}
